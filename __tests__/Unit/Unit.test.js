@@ -3,9 +3,7 @@ import exp from '../../src/modules/calculation/util/exp';
 import gcd from '../../src/modules/calculation/util/gcd';
 import percentage from '../../src/modules/calculation/util/percentage';
 
-describe 
-
-'exp function', () => 
+describe('exp function', () => {
 
     test('exp function exists', () => {
         expect(exp).toBeDefined();
@@ -32,11 +30,10 @@ describe
         expect(exp(4, 1)).toBe(4);
     });
 
-
+});
 
 // Greatest Common divisor
-describe
- 'gcd function', () => 
+describe('gcd function', () => {
 
     test('gcd function exists', () => {
         expect(gcd).toBeDefined();
@@ -69,12 +66,11 @@ describe
     test('gcd of negative numbers -48 and 18 is 6', () => {
         expect(gcd(-48, 18)).toBe(6);
     });
-
+})
 
 
 // percentage
-describe
-'percentage function', () => 
+describe('percentage function', () =>  {
     test('percentage function exists', () => {
         expect(percentage).toBeDefined();
     });
@@ -103,3 +99,4 @@ describe
         expect(percentage(-50, -100)).toBe(50);
     });
 
+});

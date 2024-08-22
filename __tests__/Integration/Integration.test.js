@@ -1,9 +1,5 @@
-
-
-integration
-
-
 import numberCruncher from '../../src/modules/calculation/numberCruncher';
+
 describe('numberCruncher integration tests', () => {
     // Positive test cases
     test('should add two numbers', () => {
